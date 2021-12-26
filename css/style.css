@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+     display: flex; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    background-image: url(img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main
+{   height: 500px;
+    width: 48vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    opacity: 2.80;
+    border-radius: 18px;
+    margin-top:10px  ;
+    padding: 40px; 
+    box-shadow:10px 5px 15px 0 rgb(10, 9, 12);
+    o
+
+    
+    
+    
+}
+.main h1{
+    color: rgba(255, 52, 136, 0.89);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content{
+  color:white;
+    padding: 5px 0;
+    margin: 5px 0;
+    font-size: 2.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium;
+    font-weight: 400;
+}
+.myinput{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 14px;
+    border: inset;
+    background: rgba(255, 160, 160, 0.445);
+    color:black;
+    border: 1px solid rgba(107, 107, 107, 0.739); ;
+}
+.btn{
+    margin-top:10px;
+    color: skyblue;
+  }
+.hero{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-size: 1.0em;
+
+}
+.icons {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.icons li {
+    list-style: none;
+    margin-left: 4px;
+    padding-left:14px ;
+}
+
+.icons li a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #294d69;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.icons li a:hover {
+    transform: rotate(40deg);
+    background-color: rgba(255, 62, 126, 0.89);
+}

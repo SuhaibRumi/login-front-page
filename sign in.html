@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Sign in</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main mx-auto">
+            <h1>Sign in</h1>
+      
+        <div class="content">
+            <label for="" >User Name</label>
+            <input type="text" name="" placeholder="Username" class="myinput">
+        </div>
+        <div class="content">
+            <label for="">Password</label>
+            <input type="password" name="" placeholder="Password" class="myinput"> <br>
+            <span >Forgot Password?</span> <br>
+            <button class="btn btn-small bg-danger">Sign Up</button><br>
+        
+        </div>
+       <Small class="hero">OR</Small>
+        <ul class="icons m-3 text-align-center">
+            <li ><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+  </div>
+    </div>
+    <script src="jq/jq.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.myinput').focus(function(){
+                $(this).css('background-color','rgba(255, 52, 136, 0.29)')
+
+            });
+            $('.myinput').blur(function(){
+                $(this).css('background-color','')
+            });
+            $('.myinput').keypress(function(){
+                $(this).css('background-color','rgba(230, 0, 230, 0.383)',)
+            })
+            $('.myinput').keyup(function(){
+                $(this).css('background-color','rgba(136, 43, 136, 0.801)',)
+            })
+
+        })
+    </script>
+</body>
+</html>
